@@ -1,8 +1,8 @@
 {
-  "name": "insight-ui-zcash",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the zcash network and build your own services with it.",
+  "name": "insight-ui-koto",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the koto network and build your own services with it.",
   "version": "0.4.0",
-  "repository": "git://github.com/str4d/insight-ui-zcash.git",
+  "repository": "git://github.com/wo01/insight-ui-koto.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -27,22 +27,26 @@
     {
       "name": "Jack Grigg",
       "email": "jack@z.cash"
+    },
+    {
+      "name": "WO",
+      "email": "wo@kotocoin.info"
     }
   ],
   "bugs": {
-    "url": "https://github.com/str4d/insight-ui-zcash/issues"
+    "url": "https://github.com/wo01/insight-ui-koto/issues"
   },
-  "homepage": "https://github.com/str4d/insight-ui-zcash",
+  "homepage": "https://github.com/wo01/insight-ui-koto",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "zcash",
+    "koto",
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-zcash",
+  "bitcoreNode": "bitcore-node-koto",
   "dependencies": {
   },
   "devDependencies": {
