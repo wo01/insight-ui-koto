@@ -68,8 +68,8 @@
           <tr data-ng-show="block.poolInfo">
             <td><strong translate>Mined by</strong></td>
             <td class="text-right text-muted">
-<!--              <a href="{{block.poolInfo.url}}" target="_blank" title="{{block.poolInfo.poolName}}">{{block.poolInfo.poolName}}</a>-->
-              {{block.poolInfo.poolName}}
+              <a data-ng-show="block.poolInfo.url!=''" href="{{block.poolInfo.url}}" target="_blank" title="{{block.poolInfo.poolName}}">{{block.poolInfo.poolName}}</a>
+              <span data-ng-show="block.poolInfo.url==''">{{block.poolInfo.poolName}}</span>
             </td>
           </tr>
           <tr>
